@@ -15,6 +15,7 @@ const app = express();
 
 app.use(cors({
   origin: 'http://localhost:3000',
+  'https://essyad.github.io',
   credentials: true
 }));
 app.use(express.json());
